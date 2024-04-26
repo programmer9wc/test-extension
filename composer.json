@@ -1,0 +1,26 @@
+{
+    "name": "programmer9wc/test-extension",
+    "license": "MIT",
+    "description" : "Test Extension for Laravel",
+    "authors": [
+        {
+            "name": "Programmer9",
+            "email": "programmer9@webbycrown.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Programmer9WC\\TestExtension\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Programmer9WC\\TestExtension\\Providers\\TestExtensionServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
